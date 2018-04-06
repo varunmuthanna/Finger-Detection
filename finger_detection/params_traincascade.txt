@@ -1,0 +1,1 @@
+opencv_traincascade -data . -vec cropped.vec -bg neg.txt -w 10 -h 20 -numPos 950 -numNeg 1900 -numStages 14
